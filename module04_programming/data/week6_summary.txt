@@ -1,0 +1,3 @@
+Pending total:   $765.00
+Needs review:    2
+High-value:      1
