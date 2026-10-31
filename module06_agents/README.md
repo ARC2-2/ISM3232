@@ -1,0 +1,3 @@
+## Appointment Assistant Mini-Project
+
+I built an appointment helper for a wellness clinic that lets clients check available consultation times. The assistant  runs on basic Python keyword matching and dictionary lookups rather than a live language model. If someone asks to book, reschedule, or cancel a slot, the bot sends them straight to the front desk because modifying appointments needs actual calendar permissions and human confirmation. Requests that fall outside basic scheduling also get a fallback message since the bot only knows how to check days against its schedule tool. If this program ran on live customer data, an issue would be race conditions where two clients try to claim the exact same open slot at the same time without database locking.
